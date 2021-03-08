@@ -40,8 +40,8 @@ console.log(a + b);
 
 > ## languages
 
-* Kazakh (B1)
-* Russian (fluent)
+* Russian (C1)
+* Kazakh (B2)
 * **English (B1)**
 
 > ## education
