@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.wrapper {
+  margin: auto;
+  width: 1200px;
+  height: 1500px;
+  box-shadow: 0 0 7px #666;
+}
+.sidebar {
+  position: relative;
+  left: 20px;
+  float: left;
+  width: 380px;
+  height: 1500px;
+  color: #fff;
+  background-color: #16232b;
+  box-shadow: 0 0 7px #666;
+}
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+h5 {
+  font-size: 50px;
+  color: #000;
+}
+h6,
+mark {
+  font-size: 18px;
+  font-weight: 400;
+}
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+h1 {
+  padding-top: 50px;
+  font-size: 42px;
+  text-align: center;
+}
+h3 {
+  padding-top: 50px;
+  text-align: right;
+}
+h6 {
+  padding-right: 20px;
+  line-height: 140%;
+}
+mark,
+.highlighter {
+  background-color: #ffec82;
+}
+.highlighter {
+  width:fit-content;
+}
+.photo {
+  margin: 30px auto;
+  display: block;
+  width: 180px;
+  height: auto;
+  border: 3px solid #37576b;
+  border-radius: 70px;
+  box-shadow: 0 0 7px #666;
+}
+.infotitleleft {
+  position: relative;
+  left: -20px;
+  margin-top: 34px;
+  padding-top: 7px;
+  padding-left: 60px;
+  height: 50px;
+  background-color: #37576b;
+  box-shadow: 0 0 7px #666;
+}
+.list,
+.marklist,
+.numlist {
+  margin: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 160%;
+}
+.list {
+  padding-left: 0;
+  list-style-type: none;
+}
+.marklist {
+  list-style-type: square;
+}
+.icon {
+  width: 20px;
+}
+.header,
+.footer {
+  padding-left: 420px;
+  padding-right: 20px;
+  color: #fff;
+  background-color: #37576b;
+  box-shadow: 0 0 7px #666;
+}
+.header {
+  height: 220px;
+}
+.footer {
+  margin-top: 30px;
+  padding-top: 10px;
+}
+.infotitleright {
+  margin-top: 30px;
+  margin-left: 420px;
+  padding-top: 7px;
+  padding-left: 40px;
+  height: 50px;
+  color: #fff;
+  background-color: #37576b;
+  box-shadow: 0 0 7px #666;
+}
+.cvinfo {
+  margin-top: 0;
+  margin-left: 420px;
+  padding-top: 10px;
+}
+.code {
+  font-size: 14px;
+}
+.comment {
+  color: #3bb143;
+}
+hr {
+  margin: 20px 20px 10px 0;
+  height: 1px;
+  color: #37576b;
+  border: none;
+  background-color: #37576b;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github-footer,
+.github-footer-negative,
+.rss-logo,
+.rss-logo-negative,
+.youtube,
+.youtube-negative {
+  height: 50px;
+}
+.github-footer-negative,
+.rss-logo-negative,
+.youtube-negative {
+  display: none;
+}
+a:hover .github-footer,
+a:hover .rss-logo,
+a:hover .youtube {
+  display: none;
+}
+a:hover .github-footer-negative,
+a:hover .rss-logo-negative,
+a:hover .youtube-negative {
+  display: inline-block;
+}
